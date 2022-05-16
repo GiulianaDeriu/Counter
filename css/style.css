@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    height: 100vh;
+    place-items: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;   
+}
+
+#counter {
+    font-size: 60px;
+    color: gray;
+    margin: 10px 0px;
+   padding: 20px;
+}
+
+.btn-container {
+    font-size: 15px;
+    padding: 15px 25px;
+    margin: 15px;   
+}
+
+.increase {
+    color: white;
+    font-size: 30pt;
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    border-style: solid;
+    border-color:  white;
+    align-items: center;    
+    background-color: green;
+    box-shadow: 7px 7px darkgrey;
+    margin-right: 20px;
+    transition-duration: 0.2s;
+}
+
+.increase:active {
+    height: 70px;
+    width: 70px;
+    box-shadow: 0px 0px darkgray;
+}
+
+.decrease {
+    color: white;
+    font-size: 30pt;
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    border-style: solid;
+    border-color:  white;
+    align-items: center;    
+    background-color: red;
+    box-shadow: 7px 7px darkgrey;
+    margin-left: 20px;
+    transition-duration: 0.2s;
+}
+
+.decrease:active {
+    height: 70px;
+    width: 70px;
+    box-shadow: 0px 0px darkgray;
+}
+
+.reset {  
+    font-size: 20pt;
+    height: 35px;
+    width: 100px;   
+    border-radius: 15px;
+    border-style: none;
+    align-items: center;    
+    background-color: whitesmoke;
+    box-shadow: 5px 5px darkgrey;
+    transition-duration: 0.2s;
+}
+
+.reset:active {
+    height: 25px;
+    width: 90px;
+    box-shadow: 0px 0px darkgray;
+    font-size: 14pt;
+}
