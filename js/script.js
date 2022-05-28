@@ -1,9 +1,9 @@
 const counter = document.querySelector('#counter')
-const button = document.querySelectorAll('.btn')
+const btns = document.querySelectorAll('.btn')
 
 let count = 0
 
-	button.addEventListener('click', (e) => {
+	btns.addEventListener('click', (e) => {
 		const styles = e.currentTarget.classList
 
 		if (styles.contains('increase')) {
